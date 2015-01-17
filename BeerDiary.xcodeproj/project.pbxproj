@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E4B7847B8CE9D477B03D23A /* libPods-BeerDiary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0302A1E769779A1FDF0BC1FF /* libPods-BeerDiary.a */; };
+		D31B2D741A6A088300791B16 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31B2D721A6A088300791B16 /* Crashlytics.framework */; };
+		D31B2D751A6A088300791B16 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31B2D731A6A088300791B16 /* Fabric.framework */; };
+		D364CEF31A6A057F0079466D /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D364CEE91A6A053E0079466D /* Accounts.framework */; };
+		D364CEF41A6A05840079466D /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D364CEEB1A6A05460079466D /* AddressBook.framework */; };
+		D364CEF51A6A05880079466D /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D364CEED1A6A054A0079466D /* AddressBookUI.framework */; };
+		D364CEF61A6A05900079466D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D364CEEF1A6A05520079466D /* CFNetwork.framework */; };
+		D364CEF71A6A05960079466D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D364CEF11A6A055B0079466D /* MessageUI.framework */; };
+		D364CEF91A6A059F0079466D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D364CEF81A6A059F0079466D /* MobileCoreServices.framework */; };
+		D364CEFB1A6A05A70079466D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D364CEFA1A6A05A70079466D /* QuartzCore.framework */; };
+		D364CEFD1A6A05AF0079466D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D364CEFC1A6A05AF0079466D /* Security.framework */; };
+		D364CEFF1A6A05B70079466D /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D364CEFE1A6A05B70079466D /* Social.framework */; };
+		D364CF011A6A05C10079466D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D364CF001A6A05C10079466D /* SystemConfiguration.framework */; };
+		D364CF031A6A05CA0079466D /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D364CF021A6A05CA0079466D /* libresolv.dylib */; };
+		D364CF051A6A05D20079466D /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D364CF041A6A05D20079466D /* libxml2.dylib */; };
+		D364CF071A6A05D90079466D /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D364CF061A6A05D90079466D /* libiconv.dylib */; };
+		D3AA8C8B1A6A00210050357D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AA8C8A1A6A00210050357D /* main.m */; };
+		D3AA8C8E1A6A00210050357D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AA8C8D1A6A00210050357D /* AppDelegate.m */; };
+		D3AA8C911A6A00210050357D /* BeerDiary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D3AA8C8F1A6A00210050357D /* BeerDiary.xcdatamodeld */; };
+		D3AA8C941A6A00210050357D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AA8C931A6A00210050357D /* ViewController.m */; };
+		D3AA8C971A6A00210050357D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3AA8C951A6A00210050357D /* Main.storyboard */; };
+		D3AA8C991A6A00210050357D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3AA8C981A6A00210050357D /* Images.xcassets */; };
+		D3AA8C9C1A6A00210050357D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3AA8C9A1A6A00210050357D /* LaunchScreen.xib */; };
+		D3AA8CA81A6A00210050357D /* BeerDiaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AA8CA71A6A00210050357D /* BeerDiaryTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3AA8CA21A6A00210050357D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3AA8C7D1A6A00200050357D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3AA8C841A6A00200050357D;
+			remoteInfo = BeerDiary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0302A1E769779A1FDF0BC1FF /* libPods-BeerDiary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BeerDiary.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C2D4AE53AB4DBD64060C2EA /* Pods-BeerDiary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeerDiary.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeerDiary/Pods-BeerDiary.release.xcconfig"; sourceTree = "<group>"; };
+		1621D647599A487D6B52BF1F /* Pods-BeerDiary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeerDiary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeerDiary/Pods-BeerDiary.debug.xcconfig"; sourceTree = "<group>"; };
+		D31B2D721A6A088300791B16 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		D31B2D731A6A088300791B16 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		D364CEE91A6A053E0079466D /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		D364CEEB1A6A05460079466D /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		D364CEED1A6A054A0079466D /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		D364CEEF1A6A05520079466D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		D364CEF11A6A055B0079466D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		D364CEF81A6A059F0079466D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		D364CEFA1A6A05A70079466D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D364CEFC1A6A05AF0079466D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		D364CEFE1A6A05B70079466D /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		D364CF001A6A05C10079466D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D364CF021A6A05CA0079466D /* libresolv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.dylib; path = usr/lib/libresolv.dylib; sourceTree = SDKROOT; };
+		D364CF041A6A05D20079466D /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		D364CF061A6A05D90079466D /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		D3AA8C851A6A00210050357D /* BeerDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeerDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3AA8C891A6A00210050357D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3AA8C8A1A6A00210050357D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3AA8C8C1A6A00210050357D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3AA8C8D1A6A00210050357D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D3AA8C901A6A00210050357D /* BeerDiary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BeerDiary.xcdatamodel; sourceTree = "<group>"; };
+		D3AA8C921A6A00210050357D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D3AA8C931A6A00210050357D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D3AA8C961A6A00210050357D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3AA8C981A6A00210050357D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D3AA8C9B1A6A00210050357D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D3AA8CA11A6A00210050357D /* BeerDiaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeerDiaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3AA8CA61A6A00210050357D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3AA8CA71A6A00210050357D /* BeerDiaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeerDiaryTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3AA8C821A6A00200050357D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D364CF071A6A05D90079466D /* libiconv.dylib in Frameworks */,
+				D31B2D741A6A088300791B16 /* Crashlytics.framework in Frameworks */,
+				D364CF051A6A05D20079466D /* libxml2.dylib in Frameworks */,
+				D31B2D751A6A088300791B16 /* Fabric.framework in Frameworks */,
+				D364CF031A6A05CA0079466D /* libresolv.dylib in Frameworks */,
+				D364CF011A6A05C10079466D /* SystemConfiguration.framework in Frameworks */,
+				D364CEFF1A6A05B70079466D /* Social.framework in Frameworks */,
+				D364CEFD1A6A05AF0079466D /* Security.framework in Frameworks */,
+				D364CEFB1A6A05A70079466D /* QuartzCore.framework in Frameworks */,
+				D364CEF91A6A059F0079466D /* MobileCoreServices.framework in Frameworks */,
+				D364CEF71A6A05960079466D /* MessageUI.framework in Frameworks */,
+				D364CEF61A6A05900079466D /* CFNetwork.framework in Frameworks */,
+				D364CEF51A6A05880079466D /* AddressBookUI.framework in Frameworks */,
+				D364CEF41A6A05840079466D /* AddressBook.framework in Frameworks */,
+				D364CEF31A6A057F0079466D /* Accounts.framework in Frameworks */,
+				9E4B7847B8CE9D477B03D23A /* libPods-BeerDiary.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3AA8C9E1A6A00210050357D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07A307F6FE38FE823BED1444 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1621D647599A487D6B52BF1F /* Pods-BeerDiary.debug.xcconfig */,
+				0C2D4AE53AB4DBD64060C2EA /* Pods-BeerDiary.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9F669A0F4E9E0FC3898B3DDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D31B2D721A6A088300791B16 /* Crashlytics.framework */,
+				D31B2D731A6A088300791B16 /* Fabric.framework */,
+				D364CF061A6A05D90079466D /* libiconv.dylib */,
+				D364CF041A6A05D20079466D /* libxml2.dylib */,
+				D364CF021A6A05CA0079466D /* libresolv.dylib */,
+				D364CF001A6A05C10079466D /* SystemConfiguration.framework */,
+				D364CEFE1A6A05B70079466D /* Social.framework */,
+				D364CEFC1A6A05AF0079466D /* Security.framework */,
+				D364CEFA1A6A05A70079466D /* QuartzCore.framework */,
+				D364CEF81A6A059F0079466D /* MobileCoreServices.framework */,
+				D364CEF11A6A055B0079466D /* MessageUI.framework */,
+				D364CEEF1A6A05520079466D /* CFNetwork.framework */,
+				D364CEED1A6A054A0079466D /* AddressBookUI.framework */,
+				D364CEEB1A6A05460079466D /* AddressBook.framework */,
+				D364CEE91A6A053E0079466D /* Accounts.framework */,
+				0302A1E769779A1FDF0BC1FF /* libPods-BeerDiary.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3AA8C7C1A6A00200050357D = {
+			isa = PBXGroup;
+			children = (
+				D3AA8C871A6A00210050357D /* BeerDiary */,
+				D3AA8CA41A6A00210050357D /* BeerDiaryTests */,
+				D3AA8C861A6A00210050357D /* Products */,
+				07A307F6FE38FE823BED1444 /* Pods */,
+				9F669A0F4E9E0FC3898B3DDC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D3AA8C861A6A00210050357D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3AA8C851A6A00210050357D /* BeerDiary.app */,
+				D3AA8CA11A6A00210050357D /* BeerDiaryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3AA8C871A6A00210050357D /* BeerDiary */ = {
+			isa = PBXGroup;
+			children = (
+				D3AA8C8C1A6A00210050357D /* AppDelegate.h */,
+				D3AA8C8D1A6A00210050357D /* AppDelegate.m */,
+				D3AA8C921A6A00210050357D /* ViewController.h */,
+				D3AA8C931A6A00210050357D /* ViewController.m */,
+				D3AA8C951A6A00210050357D /* Main.storyboard */,
+				D3AA8C981A6A00210050357D /* Images.xcassets */,
+				D3AA8C9A1A6A00210050357D /* LaunchScreen.xib */,
+				D3AA8C8F1A6A00210050357D /* BeerDiary.xcdatamodeld */,
+				D3AA8C881A6A00210050357D /* Supporting Files */,
+			);
+			path = BeerDiary;
+			sourceTree = "<group>";
+		};
+		D3AA8C881A6A00210050357D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3AA8C891A6A00210050357D /* Info.plist */,
+				D3AA8C8A1A6A00210050357D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3AA8CA41A6A00210050357D /* BeerDiaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3AA8CA71A6A00210050357D /* BeerDiaryTests.m */,
+				D3AA8CA51A6A00210050357D /* Supporting Files */,
+			);
+			path = BeerDiaryTests;
+			sourceTree = "<group>";
+		};
+		D3AA8CA51A6A00210050357D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3AA8CA61A6A00210050357D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3AA8C841A6A00200050357D /* BeerDiary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3AA8CAB1A6A00210050357D /* Build configuration list for PBXNativeTarget "BeerDiary" */;
+			buildPhases = (
+				2CDCD8FE1D8E6467E5548C0B /* Check Pods Manifest.lock */,
+				D3AA8C811A6A00200050357D /* Sources */,
+				D3AA8C821A6A00200050357D /* Frameworks */,
+				D3AA8C831A6A00200050357D /* Resources */,
+				302D408D1D8181BBEDA95325 /* Copy Pods Resources */,
+				D364CF081A6A07040079466D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeerDiary;
+			productName = BeerDiary;
+			productReference = D3AA8C851A6A00210050357D /* BeerDiary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3AA8CA01A6A00210050357D /* BeerDiaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3AA8CAE1A6A00210050357D /* Build configuration list for PBXNativeTarget "BeerDiaryTests" */;
+			buildPhases = (
+				D3AA8C9D1A6A00210050357D /* Sources */,
+				D3AA8C9E1A6A00210050357D /* Frameworks */,
+				D3AA8C9F1A6A00210050357D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3AA8CA31A6A00210050357D /* PBXTargetDependency */,
+			);
+			name = BeerDiaryTests;
+			productName = BeerDiaryTests;
+			productReference = D3AA8CA11A6A00210050357D /* BeerDiaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3AA8C7D1A6A00200050357D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Marcin Pilsniak";
+				TargetAttributes = {
+					D3AA8C841A6A00200050357D = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					D3AA8CA01A6A00210050357D = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = D3AA8C841A6A00200050357D;
+					};
+				};
+			};
+			buildConfigurationList = D3AA8C801A6A00200050357D /* Build configuration list for PBXProject "BeerDiary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3AA8C7C1A6A00200050357D;
+			productRefGroup = D3AA8C861A6A00210050357D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3AA8C841A6A00200050357D /* BeerDiary */,
+				D3AA8CA01A6A00210050357D /* BeerDiaryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3AA8C831A6A00200050357D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3AA8C971A6A00210050357D /* Main.storyboard in Resources */,
+				D3AA8C9C1A6A00210050357D /* LaunchScreen.xib in Resources */,
+				D3AA8C991A6A00210050357D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3AA8C9F1A6A00210050357D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CDCD8FE1D8E6467E5548C0B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		302D408D1D8181BBEDA95325 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeerDiary/Pods-BeerDiary-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D364CF081A6A07040079466D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 191b1a6dd2276474d1b551c005663ef97993d609 3959ec282636adf786938b64ce9a06a6c277e6d5e2bf50c13dfb72aa254de8fc";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3AA8C811A6A00200050357D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3AA8C911A6A00210050357D /* BeerDiary.xcdatamodeld in Sources */,
+				D3AA8C8E1A6A00210050357D /* AppDelegate.m in Sources */,
+				D3AA8C941A6A00210050357D /* ViewController.m in Sources */,
+				D3AA8C8B1A6A00210050357D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3AA8C9D1A6A00210050357D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3AA8CA81A6A00210050357D /* BeerDiaryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3AA8CA31A6A00210050357D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3AA8C841A6A00200050357D /* BeerDiary */;
+			targetProxy = D3AA8CA21A6A00210050357D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3AA8C951A6A00210050357D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3AA8C961A6A00210050357D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3AA8C9A1A6A00210050357D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3AA8C9B1A6A00210050357D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3AA8CA91A6A00210050357D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D3AA8CAA1A6A00210050357D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3AA8CAC1A6A00210050357D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1621D647599A487D6B52BF1F /* Pods-BeerDiary.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = BeerDiary/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Crashlytics.framework",
+					"$(PROJECT_DIR)/Crashlytics.framework/Versions/A",
+					"$(PROJECT_DIR)/Fabric.framework",
+					"$(PROJECT_DIR)/Fabric.framework/Versions/A",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D3AA8CAD1A6A00210050357D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C2D4AE53AB4DBD64060C2EA /* Pods-BeerDiary.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = BeerDiary/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Crashlytics.framework",
+					"$(PROJECT_DIR)/Crashlytics.framework/Versions/A",
+					"$(PROJECT_DIR)/Fabric.framework",
+					"$(PROJECT_DIR)/Fabric.framework/Versions/A",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D3AA8CAF1A6A00210050357D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BeerDiaryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeerDiary.app/BeerDiary";
+			};
+			name = Debug;
+		};
+		D3AA8CB01A6A00210050357D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BeerDiaryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeerDiary.app/BeerDiary";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3AA8C801A6A00200050357D /* Build configuration list for PBXProject "BeerDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3AA8CA91A6A00210050357D /* Debug */,
+				D3AA8CAA1A6A00210050357D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3AA8CAB1A6A00210050357D /* Build configuration list for PBXNativeTarget "BeerDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3AA8CAC1A6A00210050357D /* Debug */,
+				D3AA8CAD1A6A00210050357D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3AA8CAE1A6A00210050357D /* Build configuration list for PBXNativeTarget "BeerDiaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3AA8CAF1A6A00210050357D /* Debug */,
+				D3AA8CB01A6A00210050357D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D3AA8C8F1A6A00210050357D /* BeerDiary.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D3AA8C901A6A00210050357D /* BeerDiary.xcdatamodel */,
+			);
+			currentVersion = D3AA8C901A6A00210050357D /* BeerDiary.xcdatamodel */;
+			path = BeerDiary.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D3AA8C7D1A6A00200050357D /* Project object */;
+}

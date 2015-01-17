@@ -1,0 +1,66 @@
+PODS:
+  - AFNetworking (2.5.0):
+    - AFNetworking/NSURLConnection (= 2.5.0)
+    - AFNetworking/NSURLSession (= 2.5.0)
+    - AFNetworking/Reachability (= 2.5.0)
+    - AFNetworking/Security (= 2.5.0)
+    - AFNetworking/Serialization (= 2.5.0)
+    - AFNetworking/UIKit (= 2.5.0)
+  - AFNetworking/NSURLConnection (2.5.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.0)
+  - AFNetworking/Security (2.5.0)
+  - AFNetworking/Serialization (2.5.0)
+  - AFNetworking/UIKit (2.5.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - AppSociallySDK (0.8.6)
+  - ARAnalytics/CoreIOS (2.9.1)
+  - ARAnalytics/Crashlytics (2.9.1):
+    - ARAnalytics/CoreIOS
+  - ARAnalytics/Mixpanel (2.9.1):
+    - ARAnalytics/CoreIOS
+    - Mixpanel
+  - FontAwesomeIconFactory (1.4)
+  - iRate (1.11.3)
+  - MagicalRecord (2.2):
+    - MagicalRecord/Core (= 2.2)
+  - MagicalRecord/Core (2.2)
+  - Mixpanel (2.6.2):
+    - Mixpanel/MPCategoryHelpers (= 2.6.2)
+  - Mixpanel/MPCategoryHelpers (2.6.2)
+  - NSLogger (1.5.1):
+    - NSLogger/Standard (= 1.5.1)
+  - NSLogger/Standard (1.5.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.0)
+  - AppSociallySDK (from `https://github.com/appsocially/AppSocially-iOS-SDK.git`)
+  - ARAnalytics/Crashlytics
+  - ARAnalytics/Mixpanel
+  - FontAwesomeIconFactory
+  - iRate (~> 1.11)
+  - MagicalRecord
+  - NSLogger
+
+EXTERNAL SOURCES:
+  AppSociallySDK:
+    :git: https://github.com/appsocially/AppSocially-iOS-SDK.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 0f54cb5d16ce38c1b76948faffb8d5fb705021c7
+  AppSociallySDK: 18039fc8995b9a06950603af4efec90c48090366
+  ARAnalytics: a06e6d012b5999d8598ec9bacec45c8a8099f668
+  FontAwesomeIconFactory: 6ef139e879d779e8e4561980ca170ea0981f5f9e
+  iRate: 5e1978bac8b3f3f0296dbeccc0dd7b50e6e50657
+  MagicalRecord: 2b471584fc9e3137f3d0a56967917baa4979e224
+  Mixpanel: c075cedebda3328ce1ee29a18429e265ce967cd8
+  NSLogger: 7421a0a60df62fb8ff548cd0388c302d3329a322
+
+COCOAPODS: 0.35.0.rc2
