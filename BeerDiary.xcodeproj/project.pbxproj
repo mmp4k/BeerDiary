@@ -23,6 +23,7 @@
 		D364CF031A6A05CA0079466D /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D364CF021A6A05CA0079466D /* libresolv.dylib */; };
 		D364CF051A6A05D20079466D /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D364CF041A6A05D20079466D /* libxml2.dylib */; };
 		D364CF071A6A05D90079466D /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D364CF061A6A05D90079466D /* libiconv.dylib */; };
+		D3830AE91A6A181F00D49D27 /* AddBeerFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3830AE81A6A181F00D49D27 /* AddBeerFormViewController.m */; };
 		D3AA8C8B1A6A00210050357D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AA8C8A1A6A00210050357D /* main.m */; };
 		D3AA8C8E1A6A00210050357D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AA8C8D1A6A00210050357D /* AppDelegate.m */; };
 		D3AA8C911A6A00210050357D /* BeerDiary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D3AA8C8F1A6A00210050357D /* BeerDiary.xcdatamodeld */; };
@@ -62,6 +63,8 @@
 		D364CF021A6A05CA0079466D /* libresolv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.dylib; path = usr/lib/libresolv.dylib; sourceTree = SDKROOT; };
 		D364CF041A6A05D20079466D /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		D364CF061A6A05D90079466D /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		D3830AE71A6A181F00D49D27 /* AddBeerFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddBeerFormViewController.h; path = ViewControllers/AddBeerFormViewController.h; sourceTree = "<group>"; };
+		D3830AE81A6A181F00D49D27 /* AddBeerFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddBeerFormViewController.m; path = ViewControllers/AddBeerFormViewController.m; sourceTree = "<group>"; };
 		D3AA8C851A6A00210050357D /* BeerDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeerDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3AA8C891A6A00210050357D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3AA8C8A1A6A00210050357D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -144,6 +147,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D3830AE61A6A17E900D49D27 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D3830AE71A6A181F00D49D27 /* AddBeerFormViewController.h */,
+				D3830AE81A6A181F00D49D27 /* AddBeerFormViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		D3AA8C7C1A6A00200050357D = {
 			isa = PBXGroup;
 			children = (
@@ -167,6 +179,7 @@
 		D3AA8C871A6A00210050357D /* BeerDiary */ = {
 			isa = PBXGroup;
 			children = (
+				D3830AE61A6A17E900D49D27 /* ViewControllers */,
 				D3AA8C8C1A6A00210050357D /* AppDelegate.h */,
 				D3AA8C8D1A6A00210050357D /* AppDelegate.m */,
 				D3AA8C921A6A00210050357D /* ViewController.h */,
@@ -358,6 +371,7 @@
 				D3AA8C911A6A00210050357D /* BeerDiary.xcdatamodeld in Sources */,
 				D3AA8C8E1A6A00210050357D /* AppDelegate.m in Sources */,
 				D3AA8C941A6A00210050357D /* ViewController.m in Sources */,
+				D3830AE91A6A181F00D49D27 /* AddBeerFormViewController.m in Sources */,
 				D3AA8C8B1A6A00210050357D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

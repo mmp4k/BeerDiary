@@ -28,6 +28,8 @@ PODS:
     - ARAnalytics/CoreIOS
     - Mixpanel
   - FontAwesomeIconFactory (1.4)
+  - FontAwesomeIconFactory-Extensions (1.0):
+    - FontAwesomeIconFactory
   - iRate (1.11.3)
   - MagicalRecord (2.2):
     - MagicalRecord/Core (= 2.2)
@@ -45,6 +47,7 @@ DEPENDENCIES:
   - ARAnalytics/Crashlytics
   - ARAnalytics/Mixpanel
   - FontAwesomeIconFactory
+  - FontAwesomeIconFactory-Extensions (from `https://github.com/quemb/FontAwesomeIconFactory-Extensions.git`)
   - iRate (~> 1.11)
   - MagicalRecord
   - NSLogger
@@ -52,12 +55,15 @@ DEPENDENCIES:
 EXTERNAL SOURCES:
   AppSociallySDK:
     :git: https://github.com/appsocially/AppSocially-iOS-SDK.git
+  FontAwesomeIconFactory-Extensions:
+    :git: https://github.com/quemb/FontAwesomeIconFactory-Extensions.git
 
 SPEC CHECKSUMS:
   AFNetworking: 0f54cb5d16ce38c1b76948faffb8d5fb705021c7
   AppSociallySDK: 18039fc8995b9a06950603af4efec90c48090366
   ARAnalytics: a06e6d012b5999d8598ec9bacec45c8a8099f668
   FontAwesomeIconFactory: 6ef139e879d779e8e4561980ca170ea0981f5f9e
+  FontAwesomeIconFactory-Extensions: ef4e16f1cb18b92192f14ba9e57a4b18c0ce8cb9
   iRate: 5e1978bac8b3f3f0296dbeccc0dd7b50e6e50657
   MagicalRecord: 2b471584fc9e3137f3d0a56967917baa4979e224
   Mixpanel: c075cedebda3328ce1ee29a18429e265ce967cd8

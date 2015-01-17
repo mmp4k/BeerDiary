@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
+#import <NSLogger/NSLogger.h>
 
 int main(int argc, char * argv[]) {
+    LoggerStartForBuildUser();
     @autoreleasepool {
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }

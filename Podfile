@@ -14,7 +14,7 @@ pod 'AppSociallySDK', :git => 'https://github.com/appsocially/AppSocially-iOS-SD
 pod 'FontAwesomeIconFactory'
 pod "MagicalRecord"
 pod "NSLogger"
-
+pod "FontAwesomeIconFactory-Extensions", :git => 'https://github.com/quemb/FontAwesomeIconFactory-Extensions.git'
 end
 
 target 'BeerDiaryTests' do
